@@ -1,14 +1,14 @@
 'use strict';
 
-describe('myApp.view2 module', function() {
+describe('myApp.settings module', function() {
 
-  beforeEach(module('myApp.view2'));
+  beforeEach(module('myApp.settings'));
 
-  describe('view2 controller', function(){
+  describe('settings controller', function(){
 
     it('should ....', inject(function($controller) {
       //spec body
-      var view2Ctrl = $controller('View2Ctrl');
+      var view2Ctrl = $controller('SettingsCtrl');
       expect(view2Ctrl).toBeDefined();
     }));
 
