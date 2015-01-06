@@ -1,0 +1,762 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/kevinweeks/Projects/whats-my-charity',
+5 verbose install   [ 'karma',
+5 verbose install     'protractor',
+5 verbose install     'http-server',
+5 verbose install     'bower',
+5 verbose install     'shelljs',
+5 verbose install     'karma-junit-reporter' ] ]
+6 info preinstall angular-seed@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'karma@~0.10', null ]
+9 verbose cache add name=undefined spec="karma@~0.10" args=["karma@~0.10",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'karma@~0.10',
+10 verbose parsed url   path: 'karma@~0.10',
+10 verbose parsed url   href: 'karma@~0.10' }
+11 verbose cache add [ 'protractor@^1.1.1', null ]
+12 verbose cache add name=undefined spec="protractor@^1.1.1" args=["protractor@^1.1.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'protractor@^1.1.1',
+13 verbose parsed url   path: 'protractor@^1.1.1',
+13 verbose parsed url   href: 'protractor@^1.1.1' }
+14 verbose cache add [ 'http-server@^0.6.1', null ]
+15 verbose cache add name=undefined spec="http-server@^0.6.1" args=["http-server@^0.6.1",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'http-server@^0.6.1',
+16 verbose parsed url   path: 'http-server@^0.6.1',
+16 verbose parsed url   href: 'http-server@^0.6.1' }
+17 verbose cache add [ 'bower@^1.3.1', null ]
+18 verbose cache add name=undefined spec="bower@^1.3.1" args=["bower@^1.3.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'bower@^1.3.1',
+19 verbose parsed url   path: 'bower@^1.3.1',
+19 verbose parsed url   href: 'bower@^1.3.1' }
+20 verbose cache add name="karma" spec="~0.10" args=["karma","~0.10"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '~0.10',
+21 verbose parsed url   path: '~0.10',
+21 verbose parsed url   href: '~0.10' }
+22 verbose addNamed [ 'karma', '~0.10' ]
+23 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+24 verbose cache add name="protractor" spec="^1.1.1" args=["protractor","^1.1.1"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '^1.1.1',
+25 verbose parsed url   path: '^1.1.1',
+25 verbose parsed url   href: '^1.1.1' }
+26 verbose addNamed [ 'protractor', '^1.1.1' ]
+27 verbose addNamed [ null, '>=1.1.1-0 <2.0.0-0' ]
+28 verbose cache add name="http-server" spec="^0.6.1" args=["http-server","^0.6.1"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^0.6.1',
+29 verbose parsed url   path: '^0.6.1',
+29 verbose parsed url   href: '^0.6.1' }
+30 verbose addNamed [ 'http-server', '^0.6.1' ]
+31 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+32 verbose cache add [ 'shelljs@^0.2.6', null ]
+33 verbose cache add name=undefined spec="shelljs@^0.2.6" args=["shelljs@^0.2.6",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'shelljs@^0.2.6',
+34 verbose parsed url   path: 'shelljs@^0.2.6',
+34 verbose parsed url   href: 'shelljs@^0.2.6' }
+35 verbose cache add [ 'karma-junit-reporter@^0.2.2', null ]
+36 verbose cache add name=undefined spec="karma-junit-reporter@^0.2.2" args=["karma-junit-reporter@^0.2.2",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'karma-junit-reporter@^0.2.2',
+37 verbose parsed url   path: 'karma-junit-reporter@^0.2.2',
+37 verbose parsed url   href: 'karma-junit-reporter@^0.2.2' }
+38 verbose cache add name="bower" spec="^1.3.1" args=["bower","^1.3.1"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '^1.3.1',
+39 verbose parsed url   path: '^1.3.1',
+39 verbose parsed url   href: '^1.3.1' }
+40 verbose addNamed [ 'bower', '^1.3.1' ]
+41 verbose addNamed [ null, '>=1.3.1-0 <2.0.0-0' ]
+42 silly lockFile 059b5650-karma-0-10 karma@~0.10
+43 verbose lock karma@~0.10 /Users/kevinweeks/.npm/059b5650-karma-0-10.lock
+44 silly lockFile 345c784a-protractor-1-1-1 protractor@^1.1.1
+45 verbose lock protractor@^1.1.1 /Users/kevinweeks/.npm/345c784a-protractor-1-1-1.lock
+46 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+47 verbose lock http-server@^0.6.1 /Users/kevinweeks/.npm/e7eeaefd-http-server-0-6-1.lock
+48 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+49 verbose lock bower@^1.3.1 /Users/kevinweeks/.npm/7c83895e-bower-1-3-1.lock
+50 verbose cache add name="shelljs" spec="^0.2.6" args=["shelljs","^0.2.6"]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '^0.2.6',
+51 verbose parsed url   path: '^0.2.6',
+51 verbose parsed url   href: '^0.2.6' }
+52 verbose addNamed [ 'shelljs', '^0.2.6' ]
+53 verbose addNamed [ null, '>=0.2.6-0 <0.3.0-0' ]
+54 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+55 verbose lock shelljs@^0.2.6 /Users/kevinweeks/.npm/cdaabbbd-shelljs-0-2-6.lock
+56 verbose cache add name="karma-junit-reporter" spec="^0.2.2" args=["karma-junit-reporter","^0.2.2"]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: '^0.2.2',
+57 verbose parsed url   path: '^0.2.2',
+57 verbose parsed url   href: '^0.2.2' }
+58 verbose addNamed [ 'karma-junit-reporter', '^0.2.2' ]
+59 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+60 silly lockFile 6934e75d-karma-junit-reporter-0-2-2 karma-junit-reporter@^0.2.2
+61 verbose lock karma-junit-reporter@^0.2.2 /Users/kevinweeks/.npm/6934e75d-karma-junit-reporter-0-2-2.lock
+62 silly addNameRange { name: 'karma', range: '>=0.10.0-0 <0.11.0-0', hasData: false }
+63 silly addNameRange { name: 'protractor',
+63 silly addNameRange   range: '>=1.1.1-0 <2.0.0-0',
+63 silly addNameRange   hasData: false }
+64 silly addNameRange { name: 'http-server',
+64 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+64 silly addNameRange   hasData: false }
+65 silly addNameRange { name: 'shelljs', range: '>=0.2.6-0 <0.3.0-0', hasData: false }
+66 silly addNameRange { name: 'bower', range: '>=1.3.1-0 <2.0.0-0', hasData: false }
+67 silly addNameRange { name: 'karma-junit-reporter',
+67 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+67 silly addNameRange   hasData: false }
+68 verbose request where is /karma
+69 verbose request registry https://registry.npmjs.org/
+70 verbose request id aafd4041b9321e6f
+71 verbose url raw /karma
+72 verbose url resolving [ 'https://registry.npmjs.org/', './karma' ]
+73 verbose url resolved https://registry.npmjs.org/karma
+74 verbose request where is https://registry.npmjs.org/karma
+75 info trying registry request attempt 1 at 05:16:55
+76 http GET https://registry.npmjs.org/karma
+77 verbose request where is /protractor
+78 verbose request registry https://registry.npmjs.org/
+79 verbose url raw /protractor
+80 verbose url resolving [ 'https://registry.npmjs.org/', './protractor' ]
+81 verbose url resolved https://registry.npmjs.org/protractor
+82 verbose request where is https://registry.npmjs.org/protractor
+83 info trying registry request attempt 1 at 05:16:55
+84 http GET https://registry.npmjs.org/protractor
+85 verbose request where is /http-server
+86 verbose request registry https://registry.npmjs.org/
+87 verbose url raw /http-server
+88 verbose url resolving [ 'https://registry.npmjs.org/', './http-server' ]
+89 verbose url resolved https://registry.npmjs.org/http-server
+90 verbose request where is https://registry.npmjs.org/http-server
+91 info trying registry request attempt 1 at 05:16:55
+92 http GET https://registry.npmjs.org/http-server
+93 verbose request where is /karma-junit-reporter
+94 verbose request registry https://registry.npmjs.org/
+95 verbose url raw /karma-junit-reporter
+96 verbose url resolving [ 'https://registry.npmjs.org/', './karma-junit-reporter' ]
+97 verbose url resolved https://registry.npmjs.org/karma-junit-reporter
+98 verbose request where is https://registry.npmjs.org/karma-junit-reporter
+99 info trying registry request attempt 1 at 05:16:55
+100 http GET https://registry.npmjs.org/karma-junit-reporter
+101 verbose request where is /shelljs
+102 verbose request registry https://registry.npmjs.org/
+103 verbose url raw /shelljs
+104 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs' ]
+105 verbose url resolved https://registry.npmjs.org/shelljs
+106 verbose request where is https://registry.npmjs.org/shelljs
+107 info trying registry request attempt 1 at 05:16:55
+108 verbose etag "27O08K2CMJ02JR4R1825U31YT"
+109 http GET https://registry.npmjs.org/shelljs
+110 verbose request where is /bower
+111 verbose request registry https://registry.npmjs.org/
+112 verbose url raw /bower
+113 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+114 verbose url resolved https://registry.npmjs.org/bower
+115 verbose request where is https://registry.npmjs.org/bower
+116 info trying registry request attempt 1 at 05:16:55
+117 verbose etag "AQXE111KUAIDXV6KKCFBKV2J0"
+118 http GET https://registry.npmjs.org/bower
+119 http 200 https://registry.npmjs.org/karma-junit-reporter
+120 silly registry.get cb [ 200,
+120 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:55 GMT',
+120 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+120 silly registry.get     etag: '"9H5OGXAD75VVEE6ISGYK8MSE4"',
+120 silly registry.get     'content-type': 'application/json',
+120 silly registry.get     'cache-control': 'max-age=60',
+120 silly registry.get     'content-length': '8172',
+120 silly registry.get     'accept-ranges': 'bytes',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     age: '46',
+120 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+120 silly registry.get     'x-cache': 'HIT',
+120 silly registry.get     'x-cache-hits': '1',
+120 silly registry.get     'x-timer': 'S1420550215.846747,VS0,VE0',
+120 silly registry.get     vary: 'Accept',
+120 silly registry.get     'keep-alive': 'timeout=10, max=50',
+120 silly registry.get     connection: 'Keep-Alive' } ]
+121 silly addNameRange number 2 { name: 'karma-junit-reporter',
+121 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+121 silly addNameRange   hasData: true }
+122 silly addNameRange versions [ 'karma-junit-reporter',
+122 silly addNameRange   [ '0.0.1', '0.0.2', '0.1.0', '0.2.1', '0.2.2' ] ]
+123 verbose addNamed [ 'karma-junit-reporter', '0.2.2' ]
+124 verbose addNamed [ '0.2.2', '0.2.2' ]
+125 silly lockFile 9c865114-karma-junit-reporter-0-2-2 karma-junit-reporter@0.2.2
+126 verbose lock karma-junit-reporter@0.2.2 /Users/kevinweeks/.npm/9c865114-karma-junit-reporter-0-2-2.lock
+127 silly lockFile d2d30e51-r-karma-junit-reporter-0-2-2-tgz https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+128 verbose lock https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz /Users/kevinweeks/.npm/d2d30e51-r-karma-junit-reporter-0-2-2-tgz.lock
+129 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz',
+129 verbose addRemoteTarball   '4cdd4e21affd3e090e7ba73e3c766ea9e13c45ba' ]
+130 info retry fetch attempt 1 at 05:16:55
+131 verbose fetch to= /var/folders/j2/f8rdl8294vd13c0dgwvmjczw0000gn/T/npm-4785-cRqtjk63/registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+132 http GET https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+133 http 200 https://registry.npmjs.org/protractor
+134 silly registry.get cb [ 200,
+134 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:55 GMT',
+134 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+134 silly registry.get     etag: '"80GO8QZQ9QAOE0TP7P88C3A9B"',
+134 silly registry.get     'content-type': 'application/json',
+134 silly registry.get     'cache-control': 'max-age=60',
+134 silly registry.get     'content-length': '76883',
+134 silly registry.get     'accept-ranges': 'bytes',
+134 silly registry.get     via: '1.1 varnish',
+134 silly registry.get     age: '37',
+134 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+134 silly registry.get     'x-cache': 'HIT',
+134 silly registry.get     'x-cache-hits': '12',
+134 silly registry.get     'x-timer': 'S1420550215.850108,VS0,VE0',
+134 silly registry.get     vary: 'Accept',
+134 silly registry.get     'keep-alive': 'timeout=10, max=50',
+134 silly registry.get     connection: 'Keep-Alive' } ]
+135 silly addNameRange number 2 { name: 'protractor',
+135 silly addNameRange   range: '>=1.1.1-0 <2.0.0-0',
+135 silly addNameRange   hasData: true }
+136 silly addNameRange versions [ 'protractor',
+136 silly addNameRange   [ '0.1.0',
+136 silly addNameRange     '0.1.1',
+136 silly addNameRange     '0.1.2',
+136 silly addNameRange     '0.1.3',
+136 silly addNameRange     '0.2.0',
+136 silly addNameRange     '0.2.1',
+136 silly addNameRange     '0.3.0',
+136 silly addNameRange     '0.4.0',
+136 silly addNameRange     '0.4.1',
+136 silly addNameRange     '0.5.0',
+136 silly addNameRange     '0.6.1',
+136 silly addNameRange     '0.7.0',
+136 silly addNameRange     '0.8.0',
+136 silly addNameRange     '0.9.0',
+136 silly addNameRange     '0.10.0',
+136 silly addNameRange     '0.11.0',
+136 silly addNameRange     '0.12.0',
+136 silly addNameRange     '0.12.1',
+136 silly addNameRange     '0.13.0',
+136 silly addNameRange     '0.14.0',
+136 silly addNameRange     '0.15.0',
+136 silly addNameRange     '0.16.0',
+136 silly addNameRange     '0.16.1',
+136 silly addNameRange     '0.17.0',
+136 silly addNameRange     '0.18.0',
+136 silly addNameRange     '0.18.1',
+136 silly addNameRange     '0.19.0',
+136 silly addNameRange     '0.20.0',
+136 silly addNameRange     '0.20.1',
+136 silly addNameRange     '0.21.0',
+136 silly addNameRange     '0.22.0',
+136 silly addNameRange     '0.23.0',
+136 silly addNameRange     '0.23.1',
+136 silly addNameRange     '0.24.0',
+136 silly addNameRange     '0.24.1',
+136 silly addNameRange     '0.24.2',
+136 silly addNameRange     '1.0.0-rc1',
+136 silly addNameRange     '1.0.0-rc2',
+136 silly addNameRange     '1.0.0-rc3',
+136 silly addNameRange     '1.0.0-rc4',
+136 silly addNameRange     '1.0.0-rc5',
+136 silly addNameRange     '1.0.0-rc6',
+136 silly addNameRange     '1.0.0',
+136 silly addNameRange     '1.1.0',
+136 silly addNameRange     '1.1.1',
+136 silly addNameRange     '1.2.0-beta1',
+136 silly addNameRange     '1.2.0',
+136 silly addNameRange     '1.3.0',
+136 silly addNameRange     '1.3.1',
+136 silly addNameRange     '1.4.0',
+136 silly addNameRange     '1.5.0' ] ]
+137 verbose addNamed [ 'protractor', '1.5.0' ]
+138 verbose addNamed [ '1.5.0', '1.5.0' ]
+139 silly lockFile b10520a5-protractor-1-5-0 protractor@1.5.0
+140 verbose lock protractor@1.5.0 /Users/kevinweeks/.npm/b10520a5-protractor-1-5-0.lock
+141 silly lockFile 04d238c3--protractor-protractor-1-5-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+142 verbose lock https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz /Users/kevinweeks/.npm/04d238c3--protractor-protractor-1-5-0-tgz.lock
+143 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz',
+143 verbose addRemoteTarball   'a49720621d46daadc21a84f09cad0b3dc179d6cd' ]
+144 info retry fetch attempt 1 at 05:16:55
+145 verbose fetch to= /var/folders/j2/f8rdl8294vd13c0dgwvmjczw0000gn/T/npm-4785-cRqtjk63/registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+146 http GET https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+147 http 200 https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+148 silly lockFile d2d30e51-r-karma-junit-reporter-0-2-2-tgz https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+149 silly lockFile d2d30e51-r-karma-junit-reporter-0-2-2-tgz https://registry.npmjs.org/karma-junit-reporter/-/karma-junit-reporter-0.2.2.tgz
+150 silly lockFile 9c865114-karma-junit-reporter-0-2-2 karma-junit-reporter@0.2.2
+151 silly lockFile 9c865114-karma-junit-reporter-0-2-2 karma-junit-reporter@0.2.2
+152 silly lockFile 6934e75d-karma-junit-reporter-0-2-2 karma-junit-reporter@^0.2.2
+153 silly lockFile 6934e75d-karma-junit-reporter-0-2-2 karma-junit-reporter@^0.2.2
+154 http 200 https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+155 http 200 https://registry.npmjs.org/shelljs
+156 silly registry.get cb [ 200,
+156 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:56 GMT',
+156 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 silly registry.get     etag: '"39D05837Z1XU2R3LGZMI2T1GZ"',
+156 silly registry.get     'content-type': 'application/json',
+156 silly registry.get     'cache-control': 'max-age=60',
+156 silly registry.get     'content-length': '48535',
+156 silly registry.get     'accept-ranges': 'bytes',
+156 silly registry.get     via: '1.1 varnish',
+156 silly registry.get     age: '0',
+156 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+156 silly registry.get     'x-cache': 'HIT',
+156 silly registry.get     'x-cache-hits': '1',
+156 silly registry.get     'x-timer': 'S1420550215.846025,VS0,VE348',
+156 silly registry.get     vary: 'Accept',
+156 silly registry.get     'keep-alive': 'timeout=10, max=50',
+156 silly registry.get     connection: 'Keep-Alive' } ]
+157 silly addNameRange number 2 { name: 'shelljs', range: '>=0.2.6-0 <0.3.0-0', hasData: true }
+158 silly addNameRange versions [ 'shelljs',
+158 silly addNameRange   [ '0.0.1',
+158 silly addNameRange     '0.0.2',
+158 silly addNameRange     '0.0.3',
+158 silly addNameRange     '0.0.4',
+158 silly addNameRange     '0.0.5',
+158 silly addNameRange     '0.0.6',
+158 silly addNameRange     '0.0.7',
+158 silly addNameRange     '0.0.8',
+158 silly addNameRange     '0.0.9',
+158 silly addNameRange     '0.1.0',
+158 silly addNameRange     '0.1.1',
+158 silly addNameRange     '0.1.2',
+158 silly addNameRange     '0.1.3',
+158 silly addNameRange     '0.1.4',
+158 silly addNameRange     '0.2.0',
+158 silly addNameRange     '0.2.1',
+158 silly addNameRange     '0.2.2',
+158 silly addNameRange     '0.2.3',
+158 silly addNameRange     '0.2.4',
+158 silly addNameRange     '0.2.5',
+158 silly addNameRange     '0.2.6',
+158 silly addNameRange     '0.3.0',
+158 silly addNameRange     '0.0.1-alpha1',
+158 silly addNameRange     '0.0.2-pre1',
+158 silly addNameRange     '0.0.4-pre1',
+158 silly addNameRange     '0.0.5-pre1',
+158 silly addNameRange     '0.0.5-pre2',
+158 silly addNameRange     '0.0.5-pre3',
+158 silly addNameRange     '0.0.5-pre4',
+158 silly addNameRange     '0.0.6-pre1',
+158 silly addNameRange     '0.0.6-pre2' ] ]
+159 verbose addNamed [ 'shelljs', '0.2.6' ]
+160 verbose addNamed [ '0.2.6', '0.2.6' ]
+161 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+162 verbose lock shelljs@0.2.6 /Users/kevinweeks/.npm/542b9617-shelljs-0-2-6.lock
+163 http 200 https://registry.npmjs.org/http-server
+164 silly registry.get cb [ 200,
+164 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:56 GMT',
+164 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+164 silly registry.get     etag: '"1WS76IO1I3JIMBYNV5NMGS9CO"',
+164 silly registry.get     'content-type': 'application/json',
+164 silly registry.get     'cache-control': 'max-age=60',
+164 silly registry.get     'content-length': '40116',
+164 silly registry.get     'accept-ranges': 'bytes',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     age: '0',
+164 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+164 silly registry.get     'x-cache': 'MISS',
+164 silly registry.get     'x-cache-hits': '0',
+164 silly registry.get     'x-timer': 'S1420550215.846047,VS0,VE354',
+164 silly registry.get     vary: 'Accept',
+164 silly registry.get     'keep-alive': 'timeout=10, max=50',
+164 silly registry.get     connection: 'Keep-Alive' } ]
+165 silly lockFile dde8a805-js-org-shelljs-shelljs-0-2-6-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+166 verbose lock https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz /Users/kevinweeks/.npm/dde8a805-js-org-shelljs-shelljs-0-2-6-tgz.lock
+167 verbose addRemoteTarball [ 'https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz',
+167 verbose addRemoteTarball   '90492d72ffcc8159976baba62fb0f6884f0c3378' ]
+168 silly addNameRange number 2 { name: 'http-server',
+168 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+168 silly addNameRange   hasData: true }
+169 silly addNameRange versions [ 'http-server',
+169 silly addNameRange   [ '0.1.0',
+169 silly addNameRange     '0.1.1',
+169 silly addNameRange     '0.1.3',
+169 silly addNameRange     '0.2.1',
+169 silly addNameRange     '0.2.2',
+169 silly addNameRange     '0.2.3',
+169 silly addNameRange     '0.2.4',
+169 silly addNameRange     '0.2.5',
+169 silly addNameRange     '0.2.6',
+169 silly addNameRange     '0.2.9',
+169 silly addNameRange     '0.3.0',
+169 silly addNameRange     '0.4.0',
+169 silly addNameRange     '0.4.1',
+169 silly addNameRange     '0.5.0',
+169 silly addNameRange     '0.5.1',
+169 silly addNameRange     '0.5.2',
+169 silly addNameRange     '0.5.3',
+169 silly addNameRange     '0.5.5',
+169 silly addNameRange     '0.6.0',
+169 silly addNameRange     '0.6.1',
+169 silly addNameRange     '0.7.0',
+169 silly addNameRange     '0.7.1',
+169 silly addNameRange     '0.7.2',
+169 silly addNameRange     '0.7.3',
+169 silly addNameRange     '0.7.4' ] ]
+170 verbose addNamed [ 'http-server', '0.6.1' ]
+171 verbose addNamed [ '0.6.1', '0.6.1' ]
+172 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+173 verbose lock http-server@0.6.1 /Users/kevinweeks/.npm/1e2b2518-http-server-0-6-1.lock
+174 info retry fetch attempt 1 at 05:16:56
+175 verbose fetch to= /var/folders/j2/f8rdl8294vd13c0dgwvmjczw0000gn/T/npm-4785-cRqtjk63/registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+176 http GET https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+177 silly lockFile c3f4b4b6-ttp-server-http-server-0-6-1-tgz https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+178 verbose lock https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz /Users/kevinweeks/.npm/c3f4b4b6-ttp-server-http-server-0-6-1-tgz.lock
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz',
+179 verbose addRemoteTarball   '06fce65cf2bd4132a578bdac62ffacb97d613981' ]
+180 info retry fetch attempt 1 at 05:16:56
+181 verbose fetch to= /var/folders/j2/f8rdl8294vd13c0dgwvmjczw0000gn/T/npm-4785-cRqtjk63/registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+182 http GET https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+183 silly lockFile 04d238c3--protractor-protractor-1-5-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+184 silly lockFile 04d238c3--protractor-protractor-1-5-0-tgz https://registry.npmjs.org/protractor/-/protractor-1.5.0.tgz
+185 silly lockFile b10520a5-protractor-1-5-0 protractor@1.5.0
+186 silly lockFile b10520a5-protractor-1-5-0 protractor@1.5.0
+187 silly lockFile 345c784a-protractor-1-1-1 protractor@^1.1.1
+188 silly lockFile 345c784a-protractor-1-1-1 protractor@^1.1.1
+189 http 200 https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+190 http 200 https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+191 silly lockFile dde8a805-js-org-shelljs-shelljs-0-2-6-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+192 silly lockFile dde8a805-js-org-shelljs-shelljs-0-2-6-tgz https://registry.npmjs.org/shelljs/-/shelljs-0.2.6.tgz
+193 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+194 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+195 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+196 silly lockFile cdaabbbd-shelljs-0-2-6 shelljs@^0.2.6
+197 http 200 https://registry.npmjs.org/bower
+198 silly registry.get cb [ 200,
+198 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:56 GMT',
+198 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+198 silly registry.get     etag: '"ENJND4OFM3F8QJLXYCSMM5XWB"',
+198 silly registry.get     'content-type': 'application/json',
+198 silly registry.get     'cache-control': 'max-age=60',
+198 silly registry.get     'content-length': '105882',
+198 silly registry.get     'accept-ranges': 'bytes',
+198 silly registry.get     via: '1.1 varnish',
+198 silly registry.get     age: '0',
+198 silly registry.get     'x-served-by': 'cache-sjc3135-SJC',
+198 silly registry.get     'x-cache': 'HIT',
+198 silly registry.get     'x-cache-hits': '1',
+198 silly registry.get     'x-timer': 'S1420550215.878264,VS0,VE357',
+198 silly registry.get     vary: 'Accept',
+198 silly registry.get     'keep-alive': 'timeout=10, max=49',
+198 silly registry.get     connection: 'Keep-Alive' } ]
+199 silly addNameRange number 2 { name: 'bower', range: '>=1.3.1-0 <2.0.0-0', hasData: true }
+200 silly addNameRange versions [ 'bower',
+200 silly addNameRange   [ '0.1.0',
+200 silly addNameRange     '0.1.2',
+200 silly addNameRange     '0.1.3',
+200 silly addNameRange     '0.2.0',
+200 silly addNameRange     '0.3.0',
+200 silly addNameRange     '0.3.1',
+200 silly addNameRange     '0.3.2',
+200 silly addNameRange     '0.4.0',
+200 silly addNameRange     '0.5.0',
+200 silly addNameRange     '0.5.1',
+200 silly addNameRange     '0.6.0',
+200 silly addNameRange     '0.6.1',
+200 silly addNameRange     '0.6.2',
+200 silly addNameRange     '0.6.3',
+200 silly addNameRange     '0.6.4',
+200 silly addNameRange     '0.6.5',
+200 silly addNameRange     '0.6.6',
+200 silly addNameRange     '0.6.7',
+200 silly addNameRange     '0.6.8',
+200 silly addNameRange     '0.7.0',
+200 silly addNameRange     '0.7.1',
+200 silly addNameRange     '0.8.0',
+200 silly addNameRange     '0.8.1',
+200 silly addNameRange     '0.8.2',
+200 silly addNameRange     '0.8.3',
+200 silly addNameRange     '0.8.4',
+200 silly addNameRange     '0.8.5',
+200 silly addNameRange     '0.8.6',
+200 silly addNameRange     '0.9.0',
+200 silly addNameRange     '0.9.1',
+200 silly addNameRange     '0.9.2',
+200 silly addNameRange     '0.10.0',
+200 silly addNameRange     '1.0.0',
+200 silly addNameRange     '1.0.1',
+200 silly addNameRange     '1.0.2',
+200 silly addNameRange     '1.0.3',
+200 silly addNameRange     '1.1.0',
+200 silly addNameRange     '1.1.1',
+200 silly addNameRange     '1.1.2',
+200 silly addNameRange     '1.2.0',
+200 silly addNameRange     '1.2.1',
+200 silly addNameRange     '1.2.2',
+200 silly addNameRange     '1.2.3',
+200 silly addNameRange     '1.2.4',
+200 silly addNameRange     '1.2.5',
+200 silly addNameRange     '1.2.6',
+200 silly addNameRange     '1.2.7',
+200 silly addNameRange     '1.2.8',
+200 silly addNameRange     '1.3.0',
+200 silly addNameRange     '1.3.1',
+200 silly addNameRange     '1.3.2',
+200 silly addNameRange     '1.3.3',
+200 silly addNameRange     '1.3.4',
+200 silly addNameRange     '1.3.5',
+200 silly addNameRange     '1.3.6',
+200 silly addNameRange     '1.3.7',
+200 silly addNameRange     '1.3.8',
+200 silly addNameRange     '1.3.9',
+200 silly addNameRange     '1.3.10',
+200 silly addNameRange     '1.3.11',
+200 silly addNameRange     '1.3.12' ] ]
+201 verbose addNamed [ 'bower', '1.3.12' ]
+202 verbose addNamed [ '1.3.12', '1.3.12' ]
+203 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+204 verbose lock bower@1.3.12 /Users/kevinweeks/.npm/9819431c-bower-1-3-12.lock
+205 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+206 silly lockFile 9819431c-bower-1-3-12 bower@1.3.12
+207 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+208 silly lockFile 7c83895e-bower-1-3-1 bower@^1.3.1
+209 http 200 https://registry.npmjs.org/karma
+210 silly registry.get cb [ 200,
+210 silly registry.get   { date: 'Tue, 06 Jan 2015 13:16:56 GMT',
+210 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+210 silly registry.get     etag: '"72GPW297HW92YF09435I16KOS"',
+210 silly registry.get     'content-type': 'application/json',
+210 silly registry.get     'cache-control': 'max-age=60',
+210 silly registry.get     'content-length': '636558',
+210 silly registry.get     'accept-ranges': 'bytes',
+210 silly registry.get     via: '1.1 varnish',
+210 silly registry.get     age: '0',
+210 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+210 silly registry.get     'x-cache': 'MISS',
+210 silly registry.get     'x-cache-hits': '0',
+210 silly registry.get     'x-timer': 'S1420550215.846635,VS0,VE423',
+210 silly registry.get     vary: 'Accept',
+210 silly registry.get     'keep-alive': 'timeout=10, max=50',
+210 silly registry.get     connection: 'Keep-Alive' } ]
+211 silly lockFile c3f4b4b6-ttp-server-http-server-0-6-1-tgz https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+212 silly lockFile c3f4b4b6-ttp-server-http-server-0-6-1-tgz https://registry.npmjs.org/http-server/-/http-server-0.6.1.tgz
+213 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+214 silly lockFile 1e2b2518-http-server-0-6-1 http-server@0.6.1
+215 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+216 silly lockFile e7eeaefd-http-server-0-6-1 http-server@^0.6.1
+217 silly addNameRange number 2 { name: 'karma', range: '>=0.10.0-0 <0.11.0-0', hasData: true }
+218 silly addNameRange versions [ 'karma',
+218 silly addNameRange   [ '0.8.0',
+218 silly addNameRange     '0.9.0-dart',
+218 silly addNameRange     '0.8.1',
+218 silly addNameRange     '0.8.2',
+218 silly addNameRange     '0.8.3',
+218 silly addNameRange     '0.9.0',
+218 silly addNameRange     '0.8.4',
+218 silly addNameRange     '0.9.1',
+218 silly addNameRange     '0.8.5',
+218 silly addNameRange     '0.9.2',
+218 silly addNameRange     '0.9.2-dart',
+218 silly addNameRange     '0.9.3',
+218 silly addNameRange     '0.8.6',
+218 silly addNameRange     '0.9.4',
+218 silly addNameRange     '0.8.7',
+218 silly addNameRange     '0.9.5',
+218 silly addNameRange     '0.9.6',
+218 silly addNameRange     '0.8.8',
+218 silly addNameRange     '0.9.7',
+218 silly addNameRange     '0.9.8',
+218 silly addNameRange     '0.10.0',
+218 silly addNameRange     '0.10.1',
+218 silly addNameRange     '0.10.2',
+218 silly addNameRange     '0.11.0',
+218 silly addNameRange     '0.11.1',
+218 silly addNameRange     '0.10.3',
+218 silly addNameRange     '0.10.4',
+218 silly addNameRange     '0.11.2',
+218 silly addNameRange     '0.11.3',
+218 silly addNameRange     '0.10.5',
+218 silly addNameRange     '0.11.4',
+218 silly addNameRange     '0.11.5',
+218 silly addNameRange     '0.10.6',
+218 silly addNameRange     '0.11.6',
+218 silly addNameRange     '0.10.7',
+218 silly addNameRange     '0.11.7',
+218 silly addNameRange     '0.11.8',
+218 silly addNameRange     '0.11.9',
+218 silly addNameRange     '0.10.8',
+218 silly addNameRange     '0.11.10',
+218 silly addNameRange     '0.11.11',
+218 silly addNameRange     '0.11.12',
+218 silly addNameRange     '0.11.11-dev',
+218 silly addNameRange     '0.10.9',
+218 silly addNameRange     '0.11.12-dev',
+218 silly addNameRange     '0.11.12-dev2',
+218 silly addNameRange     '0.11.13',
+218 silly addNameRange     '0.11.14',
+218 silly addNameRange     '0.12.0',
+218 silly addNameRange     '0.10.10',
+218 silly addNameRange     '0.12.1',
+218 silly addNameRange     '0.12.2',
+218 silly addNameRange     '0.12.3',
+218 silly addNameRange     '0.12.4',
+218 silly addNameRange     '0.12.5',
+218 silly addNameRange     '0.12.6',
+218 silly addNameRange     '0.12.6-beta-43e6e28',
+218 silly addNameRange     '0.12.7',
+218 silly addNameRange     '0.12.8',
+218 silly addNameRange     '0.12.9',
+218 silly addNameRange     '0.12.10',
+218 silly addNameRange     '0.12.11',
+218 silly addNameRange     '0.12.12',
+218 silly addNameRange     '0.12.11-beta-3029418',
+218 silly addNameRange     '0.12.13',
+218 silly addNameRange     '0.12.14',
+218 silly addNameRange     '0.12.15',
+218 silly addNameRange     '0.12.16',
+218 silly addNameRange     '0.12.16-beta-905422d',
+218 silly addNameRange     '0.12.17',
+218 silly addNameRange     '0.12.18',
+218 silly addNameRange     '0.12.19',
+218 silly addNameRange     '0.12.20',
+218 silly addNameRange     '0.12.21',
+218 silly addNameRange     '0.12.22',
+218 silly addNameRange     '0.12.23',
+218 silly addNameRange     '0.12.24',
+218 silly addNameRange     '0.12.24-beta-6cf7955',
+218 silly addNameRange     '0.12.25',
+218 silly addNameRange     '0.12.25-beta-37a7958',
+218 silly addNameRange     '0.12.25-beta-ad5bc24',
+218 silly addNameRange     '0.12.26',
+218 silly addNameRange     '0.12.27',
+218 silly addNameRange     '0.12.28',
+218 silly addNameRange     '0.12.28-beta-b9be580',
+218 silly addNameRange     '0.12.29',
+218 silly addNameRange     '0.12.30',
+218 silly addNameRange     '0.12.31',
+218 silly addNameRange     '0.12.28-beta-f65c864' ] ]
+219 verbose addNamed [ 'karma', '0.10.10' ]
+220 verbose addNamed [ '0.10.10', '0.10.10' ]
+221 silly lockFile f40119e0-karma-0-10-10 karma@0.10.10
+222 verbose lock karma@0.10.10 /Users/kevinweeks/.npm/f40119e0-karma-0-10-10.lock
+223 silly lockFile 75a3376e-pmjs-org-karma-karma-0-10-10-tgz https://registry.npmjs.org/karma/-/karma-0.10.10.tgz
+224 verbose lock https://registry.npmjs.org/karma/-/karma-0.10.10.tgz /Users/kevinweeks/.npm/75a3376e-pmjs-org-karma-karma-0-10-10-tgz.lock
+225 verbose addRemoteTarball [ 'https://registry.npmjs.org/karma/-/karma-0.10.10.tgz',
+225 verbose addRemoteTarball   '137f4aad0fbe5854e73e8c1eb293c0e540825a49' ]
+226 info retry fetch attempt 1 at 05:16:56
+227 verbose fetch to= /var/folders/j2/f8rdl8294vd13c0dgwvmjczw0000gn/T/npm-4785-cRqtjk63/registry.npmjs.org/karma/-/karma-0.10.10.tgz
+228 http GET https://registry.npmjs.org/karma/-/karma-0.10.10.tgz
+229 http 200 https://registry.npmjs.org/karma/-/karma-0.10.10.tgz
+230 silly lockFile 75a3376e-pmjs-org-karma-karma-0-10-10-tgz https://registry.npmjs.org/karma/-/karma-0.10.10.tgz
+231 silly lockFile 75a3376e-pmjs-org-karma-karma-0-10-10-tgz https://registry.npmjs.org/karma/-/karma-0.10.10.tgz
+232 silly lockFile f40119e0-karma-0-10-10 karma@0.10.10
+233 silly lockFile f40119e0-karma-0-10-10 karma@0.10.10
+234 silly lockFile 059b5650-karma-0-10 karma@~0.10
+235 silly lockFile 059b5650-karma-0-10 karma@~0.10
+236 error Error: EACCES, mkdir '/Users/kevinweeks/.npm/shelljs/0.2.6'
+236 error  { [Error: EACCES, mkdir '/Users/kevinweeks/.npm/shelljs/0.2.6']
+236 error   errno: 3,
+236 error   code: 'EACCES',
+236 error   path: '/Users/kevinweeks/.npm/shelljs/0.2.6',
+236 error   parent: 'angular-seed' }
+237 error Please try running this command again as root/Administrator.
+238 error System Darwin 14.0.0
+239 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+240 error cwd /Users/kevinweeks/Projects/whats-my-charity
+241 error node -v v0.10.33
+242 error npm -v 1.4.28
+243 error path /Users/kevinweeks/.npm/shelljs/0.2.6
+244 error code EACCES
+245 error errno 3
+246 error stack Error: EACCES, mkdir '/Users/kevinweeks/.npm/shelljs/0.2.6'
+247 verbose exit [ 3, true ]
