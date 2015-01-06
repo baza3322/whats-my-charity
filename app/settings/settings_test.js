@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.settings module', function() {
+describe('app.settings module', function() {
 
-  beforeEach(module('myApp.settings'));
+  beforeEach(module('app.settings'));
 
   describe('settings controller', function(){
 

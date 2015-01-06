@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.settings', ['ngRoute'])
+angular.module('app.settings', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/settings', {
