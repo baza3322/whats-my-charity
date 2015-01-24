@@ -4,48 +4,20 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-lg-3 col-md-6 col-xs-12">
-        <rd-widget>
-            <rd-widget-body>
-                <div class="widget-icon green pull-left">
-                    <i class="fa fa-users"></i>
-                </div>
-                <div class="title">80</div>
-                <div class="comment">Users</div>
-            </rd-widget-body>
-        </rd-widget>
+<div class="row charities-container" ng-controller="CharitiesCtrl">
+    <div class="row title-bar col-xs-12 clearfix">
+        <h2 class="title-nar-title pull-left">Favorite Charities</h2>
+        <div class="title-bar-search pull-right">
+            <input type="text" placeholder="Search" class="form-control input-med">
+        </div>
     </div>
-    <div class="col-lg-3 col-md-6 col-xs-12">
+    <div ng-repeat="charity in charities" class="charity col-xs-12">
         <rd-widget>
             <rd-widget-body>
-                <div class="widget-icon red pull-left">
-                    <i class="fa fa-tasks"></i>
+                <div class="charity-icon widget-icon {{charity.color}}">
+                    <i class="fa fa-star"></i>
                 </div>
-                <div class="title">16</div>
-                <div class="comment">Servers</div>
-            </rd-widget-body>
-        </rd-widget>
-    </div>
-    <div class="col-lg-3 col-md-6 col-xs-12">
-        <rd-widget>
-            <rd-widget-body>
-                <div class="widget-icon orange pull-left">
-                    <i class="fa fa-sitemap"></i>
-                </div>
-                <div class="title">225</div>
-                <div class="comment">Documents</div>
-            </rd-widget-body>
-        </rd-widget>
-    </div>
-    <div class="col-lg-3 col-md-6 col-xs-12">
-        <rd-widget>
-            <rd-widget-body>
-                <div class="widget-icon blue pull-left">
-                    <i class="fa fa-support"></i>
-                </div>
-                <div class="title">62</div>
-                <div class="comment">Tickets</div>
+                <div class="charity-name title">{{charity.name}}</div>
             </rd-widget-body>
         </rd-widget>
     </div>
@@ -90,7 +62,7 @@
                         <tr><th class="text-center">ID</th><th>Username</th><th>Role</th><th>Account</th></tr>
                         </thead>
                         <tbody>
-                        <tr><td class="text-center">1</td><td>Joe Bloggs</td><td>Super Admin</td><td>AZ23045</td></tr>
+                        <tr><td class="text-center">1</td><td>Kevin Weeks</td><td>Super Admin</td><td>AZ23045</td></tr>
                         <tr><td class="text-center">2</td><td>Timothy Hernandez</td><td>Admin</td><td>AU24783</td></tr>
                         <tr><td class="text-center">3</td><td>Joe Bickham</td><td>User</td><td>AM23781</td></tr>
                         </tbody>
