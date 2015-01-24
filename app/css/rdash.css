@@ -215,10 +215,6 @@ body {
     height: 100%;
     z-index: 999;
 }
-#page-wrapper,
-#sidebar-wrapper {
-    transition: all .4s ease 0s;
-}
 .green {
     background: #23ae89 !important;
 }

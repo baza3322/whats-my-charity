@@ -7,5 +7,10 @@ angular.module('app.dashboard', ['ngRoute'])
     });
   }])
 
-  .controller('DashboardCtrl', [function() {
+  .controller('DashboardCtrl', ['$scope', function($scope) {
+
+    $scope.toggleSidebar = function() {
+      $scope.toggle = !$scope.toggle;
+    };
+
   }]);
