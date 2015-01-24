@@ -1,13 +1,12 @@
-angular.module('app.dashboard', ['ngRoute'])
+angular.module('app.dashboard')
 
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/dashboard', {
-      templateUrl: 'dashboard/templates/dashboard.html'
+      templateUrl: 'dashboard/templates/dashboard.html',
+      controller: 'DashboardCtrl'
     });
   }])
 
   .controller('DashboardCtrl', ['$scope', function($scope) {
-    $scope.toggleSidebar = function() {
-      $scope.toggle = !$scope.toggle;
-    };
+
   }]);
