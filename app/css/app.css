@@ -1,3 +1,8 @@
+/* Titles */
+.title-bar {
+    margin-top: 30px;
+}
+
 /* Charities */
 .charities-container .charity-icon {
     display: inline-block;
@@ -23,4 +28,24 @@
 
 .charities-container .title-bar-search {
     margin-top: 15px;
+}
+
+/* Following */
+.following-container .following-user {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.following-container .following-user .following-user-icon {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+.following-container .widget .widget-content .title {
+    font-size: 25px;
+}
+
+.following-container .charity-name span {
+    display: block;
 }
