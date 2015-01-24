@@ -4,11 +4,13 @@
 angular.module('app', [
   'ngRoute',
 
+  'ui.bootstrap',
+
   'app.global',
-  'app.home',
-  'app.settings',
-  'app.version'
+  'app.dashboard'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/home'});
+  $routeProvider.otherwise({
+    redirectTo: '/dashboard'
+  });
 }]);
