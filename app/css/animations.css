@@ -1,5 +1,8 @@
 /* Animations */
-#page-wrapper.open-add {
+
+/* Sidebar */
+#page-wrapper.open-add,
+#page-wrapper.open-remove {
     transition: padding 250ms linear;
 }
 
@@ -8,11 +11,22 @@
     padding-left: 250px;
 }
 
-#page-wrapper.open-add #sidebar-wrapper {
+#page-wrapper.open-add #sidebar-wrapper,
+#page-wrapper.open-remove #sidebar-wrapper{
     transition: left 250ms linear;
 }
 
 #page-wrapper.open-add-active #sidebar-wrapper,
 #page-wrapper.open #sidebar-wrapper {
     left: 150px;
+}
+
+/* ngView */
+[ng-view].ng-enter {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+[ng-view].ng-enter-active {
+    opacity: 1;
 }
