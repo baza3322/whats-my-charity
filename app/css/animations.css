@@ -1,1 +1,18 @@
- /* Animations */
+/* Animations */
+#page-wrapper.open-add {
+    transition: padding 250ms linear;
+}
+
+#page-wrapper.open-add-active,
+#page-wrapper.open {
+    padding-left: 250px;
+}
+
+#page-wrapper.open-add #sidebar-wrapper {
+    transition: left 250ms linear;
+}
+
+#page-wrapper.open-add-active #sidebar-wrapper,
+#page-wrapper.open #sidebar-wrapper {
+    left: 150px;
+}
