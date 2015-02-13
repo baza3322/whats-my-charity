@@ -7,6 +7,43 @@ angular.module('app.dashboard')
     });
   }])
 
-  .controller('NotificationsCtrl', ['$scope', function($scope) {
+  .controller('NotificationsCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $rootScope.page = 'Notifications';
+
+
+    $scope.emails = [
+      {
+        description: 'Receive monthly promotional emails',
+        checked: false
+      },
+
+      {
+        description: 'Receive emails from your favorite charities',
+        checked: false
+      },
+
+      {
+        description: 'Receive emails about new charities you may be interested in',
+        checked: false
+      }
+
+    ];
+
+    $scope.pushNotifications = [
+      {
+        description: 'Receive push notifications about new messages',
+        checked: false
+      },
+
+      {
+        description: 'Receive push notifications about new contact requests',
+        checked: false
+      },
+
+      {
+        description: 'Receive push notifications about new charities you may be interested in',
+        checked: false
+      }
+    ];
 
   }]);
