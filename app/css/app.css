@@ -1,9 +1,18 @@
+/* General */
+[ng-click] {
+    cursor: pointer;
+}
+
 /* Titles */
 .title-bar {
     margin-top: 30px;
 }
 
 /* Charities */
+.charities-container .charity {
+    margin-bottom: 15px;
+}
+
 .charities-container .charity-icon {
     display: inline-block;
 }
@@ -105,25 +114,47 @@
     transition: transform 250ms;
 }
 
-.toggle .toggle-button.ng-enter,
-.toggle .toggle-button.ng-enter:after {
-    -webkit-transition: transform 250ms;
-    transition: transform 250ms;
-}
-
 .toggle .toggle-button.checked:before {
     width: 50px;
-    background: rgba(19,191,17,1);
+    background: #13BF11;
 }
 
 .toggle .toggle-button.checked:after {
-    box-shadow: inset 0 0 0 1px rgba(19,191,17,1), 0 2px 4px rgba(0,0,0,.2);
+    box-shadow: inset 0 0 0 1px #13BF11, 0 2px 4px rgba(0,0,0,.2);
 }
 
 .toggle .toggle-button.checked:after {
     transform: translate3d(20px, 0, 0);
 }
 
-.notification-select .glyphicon {
+/* Notifications Select */
+.notification-select label {
+    cursor: pointer;
+}
+
+.notification-select-switch {
+    position: relative;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.notification-select-switch .notification-select-icon {
     font-size: 1.6em;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.notification-select .notification-select-icon.on {
+    color: #13BF11;
+}
+
+.notification-select .notification-select-icon.off {
+    color: #b81900;
+}
+
+/* Alerts */
+.alert-container {
+    overflow: hidden;
 }

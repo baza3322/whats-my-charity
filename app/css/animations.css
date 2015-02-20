@@ -3,7 +3,7 @@
 /* Sidebar */
 #page-wrapper.open-add,
 #page-wrapper.open-remove {
-    transition: padding 250ms linear;
+    transition: padding 350ms linear;
 }
 
 #page-wrapper.open-add-active,
@@ -13,20 +13,111 @@
 
 #page-wrapper.open-add #sidebar-wrapper,
 #page-wrapper.open-remove #sidebar-wrapper{
-    transition: left 250ms linear;
+    transition: left 350ms linear;
 }
 
 #page-wrapper.open-add-active #sidebar-wrapper,
 #page-wrapper.open #sidebar-wrapper {
+    /*transform: translate3d(180px, 0, 0);*/
     left: 150px;
 }
 
-/* ngView */
-[ng-view].ng-enter {
+/* ngInclude/ngView */
+ng-include.ng-enter,
+[ng-include].ng-enter,
+ng-view.ng-enter,
+[ng-view].ng-enter{
     opacity: 0;
     transition: opacity 1s;
 }
 
-[ng-view].ng-enter-active {
+ng-include.ng-enter-active,
+[ng-include].ng-enter-active,
+ng-view.ng-enter-active,
+[ng-view].ng-enter-active{
     opacity: 1;
+}
+
+/* ngIf */
+.alert-container.ng-leave {
+    transition: opacity 1s, transform 1s;
+}
+
+.alert-container.ng-leave-active {
+    transform: scale(0,0);
+    opacity: 0;
+}
+
+/* ngSwitch */
+.notification-select-icon.ng-enter,
+.notification-select-icon.ng-leave {
+    transition: opacity 250ms;
+}
+
+.notification-select-icon.ng-enter,
+.notification-select-icon.ng-leave-active {
+    opacity: 0;
+}
+
+.notification-select-icon.ng-enter-active {
+    opacity: 1;
+}
+
+/* Charity List (ngRepeat) */
+.charity.ng-enter,
+.charity.ng-leave {
+    transition: transform 750ms, margin 900ms;
+}
+
+.charity.ng-enter-stagger,
+.charity.ng-leave-stagger {
+    transition-delay: 200ms;
+}
+
+.charity.ng-enter,
+.charity.ng-leave-active {
+    transform: translateX(-100%);
+    margin-bottom: -97px;
+}
+
+.charity.ng-enter-active {
+    transform: translateX(0);
+    margin-bottom: 15px;
+}
+
+.charity.ng-move,
+.charity.ng-move .widget {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.charity.ng-move .widget {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+.charity.ng-move-stagger,
+.charity.ng-move-stagger .widget {
+    -webkit-animation-delay: 200ms;
+    animation-delay: 200ms;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

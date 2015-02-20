@@ -9,4 +9,6 @@ angular.module('app.dashboard')
 
   .controller('DashboardCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
     $rootScope.page = 'Dashboard';
+
+    $scope.firstVisit = true;
   }]);

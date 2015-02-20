@@ -19,12 +19,12 @@ angular.module('app.dashboard')
 
       {
         description: 'Receive emails from your favorite charities',
-        checked: false
+        checked: true
       },
 
       {
         description: 'Receive emails about new charities you may be interested in',
-        checked: false
+        checked: true
       }
 
     ];
@@ -42,7 +42,7 @@ angular.module('app.dashboard')
 
       {
         description: 'Receive push notifications about new charities you may be interested in',
-        checked: false
+        checked: true
       }
     ];
 
