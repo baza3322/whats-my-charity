@@ -73,11 +73,11 @@
             <div class="row header">
                 <div class="col-xs-12">
                     <div class="user pull-right">
-                        <div class="item dropdown">
-                            <a href="#" class="dropdown-toggle">
+                        <div class="item">
+                            <a class="dropdown-toggle" ng-click="showUserDropdown = !showUserDropdown">
                                 <img src="images/avatar.jpg">
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-right">
+                            <ul class="dropdown-menu dropdown-menu-right" ng-show="showUserDropdown">
                                 <li class="dropdown-header">
                                     Kevin Weeks
                                 </li>
@@ -101,10 +101,10 @@
                             </ul>
                         </div>
                         <div class="item dropdown">
-                            <a href="#" class="dropdown-toggle">
+                            <a class="dropdown-toggle" ng-click="showNotificationDropdown = !showNotificationDropdown">
                                 <i class="fa fa-bell-o"></i>
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-right">
+                            <ul class="dropdown-menu dropdown-menu-right" ng-show="showNotificationDropdown">
                                 <li class="dropdown-header">
                                     Notifications
                                 </li>
