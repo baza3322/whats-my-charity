@@ -35,12 +35,14 @@ ng-view.ng-enter-active,
 }
 
 .alert-container.ng-leave {
-    transition: opacity 1s, transform 1s;
+    transition: margin 1.5s;
 }
 
 .alert-container.ng-leave-active {
-    transform: scale(0,0);
-    opacity: 0;
+    -webkit-animation-name: hinge;
+    animation-name: hinge;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
 }
 
 .notification-select-icon.ng-enter,
