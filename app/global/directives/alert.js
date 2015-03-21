@@ -5,7 +5,7 @@
 
     var def = {
       restrict: 'EA',
-      templateUrl: 'dashboard/templates/alert.html',
+      templateUrl: 'global/templates/alert.html',
       transclude: true,
       replace: true,
       scope: {

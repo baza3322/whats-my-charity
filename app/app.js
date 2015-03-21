@@ -6,6 +6,7 @@ angular.module('app', [
     'ngAnimate',
 
     'ui.bootstrap',
+    'TweenMax',
 
     'app.global',
     'app.dashboard'

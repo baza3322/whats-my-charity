@@ -1,5 +1,5 @@
 angular.module('app.global')
-  .animation('.animate-fade-in-out', function() {
+  .animation('.animate-fade-in-out', ['TweenMax', function(TweenMax) {
 
     var duration = 1;
 
@@ -33,4 +33,4 @@ angular.module('app.global')
       }
     }
 
-  });
+  }]);
