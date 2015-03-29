@@ -7,6 +7,25 @@ angular.module('app.dashboard')
     });
   }])
 
-  .controller('PreferencesCtrl', ['$scope', function($scope) {
+  .controller('PreferencesCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+    $rootScope.page = 'Preferences';
+
+    $scope.user = {
+      name: 'Kevin Weeks',
+      email: 'kevinweeks@pluralsight.com',
+      city: 'San Luis Obispo',
+      password: 'notsecure'
+    };
+
+    var copy = angular.copy($scope.user);
+
+    $scope.submit = function() {
+      $scope.submitted = true;
+    };
+
+    $scope.cancel = function() {
+      $scope.user = angular.copy(copy);
+      $scope.preferencesForm.$setPristine();
+    };
 
   }]);
