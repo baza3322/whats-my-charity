@@ -162,3 +162,25 @@ ng-view.ng-enter-active,
     -webkit-animation-duration: 0s;
     animation-duration: 0s;
 }
+
+.form-control.ng-invalid-add,
+.form-control.ng-invalid-remove {
+    transition: 350ms border-color;
+}
+
+[ng-message].ng-enter,
+[ng-message].ng-leave {
+    transition: 500ms margin, 500ms opacity;
+}
+
+[ng-message].ng-enter,
+[ng-message].ng-leave-active.ng-leave-active {
+    opacity: 0;
+    margin-bottom: -52px;
+}
+
+[ng-message].ng-enter-active,
+[ng-message].ng-leave {
+    opacity: 1;
+    margin-bottom: 20px;
+}

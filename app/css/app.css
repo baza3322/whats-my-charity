@@ -182,3 +182,50 @@
 .dropdown-menu {
     display: block;
 }
+
+/* Forms */
+.form-control:focus {
+    border-color: #aaa;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control.ng-invalid {
+    border-color: #DB1A1A;
+}
+
+input[disabled] {
+    opacity: .4;
+}
+
+/* Account Details */
+.preferences form .row {
+    margin-bottom: 20px;
+}
+
+.preferences label {
+    min-width: 155px;
+}
+
+.preferences .form-control {
+    display: inline-block;
+    width: auto;
+    min-width: 255px;
+}
+
+.preferences input[type="submit"],
+.preferences input[type="button"] {
+    padding: .75em 2em;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.preferences input[type="submit"] {
+    background: #13BF11;
+    text-shadow: 1px 1px #138E12;
+}
+
+.preferences input[type="button"] {
+    background: #ae2323;
+}
